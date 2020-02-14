@@ -1,0 +1,22 @@
+Box World 3D
+============
+
+How to make levels:
+-------------------
+1) Create a schematic which is not bigger than 16 nodes in each axis.
+2) Put the schematic into mods/boxworld/levels/ and name it level<n>.we where
+   <n> stands for the ordinary number.
+3) Create a file level<n>.lua in mods/boxworld/levels/ and write there:
+
+level.start_pos = {x = <X>, y = <Y>, z = <Z>}
+level.boxes = <B>
+
+<X> stands for the x-coordinate of start, <Y> stands for the y-coordinate of
+start, <Z> stands for the z-coordinate of start. <B> stands for the total count
+of YELLOW boxes in the start position (don't count the red ones). If you aren't
+sure, look into other levels.
+
+License:
+--------
+Each mod has its own license in license.txt. All other things have the CC0
+license. (Look into mods/boxworld/license.txt to see the CC0 license)
