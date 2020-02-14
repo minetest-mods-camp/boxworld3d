@@ -1,0 +1,12 @@
+[submodule "mods/boxworld"]
+	path = mods/boxworld
+	url = https://gitlab.com/h2mm/boxworld.git
+[submodule "mods/level"]
+	path = mods/level
+	url = https://gitlab.com/h2mm/level.git
+[submodule "mods/discrete_player"]
+	path = mods/discrete_player
+	url = https://gitlab.com/h2mm/discrete_player.git
+[submodule "mods/Minetest-WorldEdit"]
+	path = mods/Minetest-WorldEdit
+	url = https://github.com/Uberi/Minetest-WorldEdit.git
